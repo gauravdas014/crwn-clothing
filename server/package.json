@@ -2,5 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "preci": "rm -fr node_modules",
+    "ci": "yarn install --frozen-lockfile"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
