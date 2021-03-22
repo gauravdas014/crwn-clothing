@@ -18,6 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "preci": "rm -fr node_modules",
+    "ci": "yarn install --frozen-lockfile",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
